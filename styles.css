@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(background-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.wrapper {
+    border: 1px solid snow;
+    transform: scale(125%);
+    border-radius: 10px;
+    backdrop-filter: blur(6px);
+    width: 89.3%;
+    padding: 15px;
+}
+
+#userpassword, #useremail {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid snow;
+    /* width: 66%; */
+    width: 60%;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 10%;
+}
+
+#userpassword, #useremail:focus {
+    outline: 0;
+}
+
+#useremail:hover {
+
+
+}
+
+.input-box4 {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.input-box3, .input-box5 {
+    font-size: 85%;
+}
